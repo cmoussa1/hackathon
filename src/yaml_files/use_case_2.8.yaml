@@ -24,7 +24,7 @@ attributes:
         scope: user
         scheme: string
         value: foo
-      - type: out 
-        scope: user
+      - type: out
+        scope: global
         scheme: string
         value: bar
