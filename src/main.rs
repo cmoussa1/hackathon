@@ -104,10 +104,3 @@ fn parse_yaml(yaml_file: &str) -> Vec<Dependency> {
     dependencies
 
 }
-
-// fn extract_dependencies(yaml_file: &str) -> Result<(), ()> {
-//     let yaml_file = read_to_string(yaml_file).expect("Unable to read file");
-//     let contents = YamlLoader::load_from_str(&yaml_file).unwrap();
-//
-//     contents[0]["attributes"]["system"]["dependencies"].as_vec().unwrap()
-// }
